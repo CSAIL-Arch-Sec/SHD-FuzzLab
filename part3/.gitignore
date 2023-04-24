@@ -1,0 +1,7 @@
+*.o
+*.d
+asm_offsets.h
+kernel.mem
+kernel.bin
+kernel.elf
+.vscode
