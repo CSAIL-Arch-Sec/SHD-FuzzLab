@@ -61,7 +61,7 @@ start:
     csrw CSR_MEPC, x1
 
     # mpp (saved privilege level): What privilege level to run with after mret (PSP_PRIV_MACHINE)
-    li x1, PSP_PRIV_MACHINE
+    li x1, PSP_PRIV_USER
     csrrw x1, CSR_MPP, x1
 
     # mpie (saved interrupt enable): Should interrupts be enabled after mret? (No)
